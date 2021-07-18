@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 2000px
+}
+/* start header */
+.header{
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    height: 700px;
+}
+.header .overlay {
+  background : rgba(49 ,55 ,61 ,.7);
+  width: 100%;
+    height: 100%
+}
+.header .title {
+    padding-top: 200px
+}
+.header .title h1{
+    color: white;
+    font-family: Poiret One;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size:60px
+}
+
+.header .container .top-icons:nth-child(2){
+    float: left
+}
+.header .container .top-icons{
+  float: right;
+  margin-top: 50px;
+}
+
+.header .container .top-icons .fa-bars{
+    color: white;
+    font-size: 25px;
+}
+.header .container .feat h2{
+     font-family: Julius Sans One;
+    text-transform: capitalize;
+     color: skyblue
+}
+.header .container .feat span{
+   font-family: Quicksand;
+    text-transform: capitalize;
+    font-size: 25px;
+    display: block;
+    margin-top: 20px;
+    color: whitesmoke
+}
+.header .container .feat span .diff{
+    color: skyblue;
+    display: inline
+}
+.header .container .feat hr{
+    width: 50px;
+    border-color: lightcyan
+}
+.header .container .feat p{
+    width: 600px
+}
+
+.header .btn{
+    background: transparent;
+    border: 1px solid transparent;
+    margin: 5px;
+    width: 190px;
+    padding: 10px;
+    font-size: 17px;
+    font-family: Julius Sans One;
+    text-transform: capitalize;
+    margin-top: 40px;
+    color: white
+}
+.header .btn:nth-child(1){ 
+    background-color: cadetblue;
+    border: 1px solid cadetblue
+}
+.header .btn:nth-child(1):hover{
+    background-color: darkcyan;
+    border: 1px solid darkcyan
+}
+.header .btn:nth-child(2){
+    border: 1px solid white
+}
+.header .btn:nth-child(2):hover{
+    background-color: coral;
+    border: 1px solid coral
+}
+.header .btn:hover{
+    transition: .6s
+}
+.header .down{
+    margin-top: 90px;  
+}
+.header .down .fa-chevron-down{
+    color: coral;
+}
+
+/* end header */
+
+/* start services */
+.services{
+    height: 400px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    width: 100%
+}
+.services .container .icon{
+    font-size: 50px;
+    color: #00aeda
+}
+.services .container h3{
+    font-family: Julius Sans One;;
+    color: cadetblue
+}
+.services .container p{
+    text-transform: capitalize;
+    font-family: Quicksand;
+    font-size: 20px
+}
+/* end services */
+
+/* start about me */
+.about{
+    width: 100%;
+    height:800px;
+    background-color: whitesmoke
+}
+.about .container .col-lg-5{
+    height: 700px;
+    margin-top: 50px;
+    margin-left: 20px
+}
+.about .container .one{
+    border-radius: 5px;
+    padding: 0;
+    background-color: white;
+    box-shadow: 0 0 18px darkgray;
+}
+.about .container .one .cover{
+    height: 200px;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+      background: -webkit-linear-gradient(-120deg, teal, cadetblue ,pink, skyblue);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.about .container .one img{
+    height: 210px;
+    width: 190px;
+    border-radius: 50%;
+    margin-top: -21%
+}
+.about .container .one h1{
+    color: gray;
+    font-family: Julius Sans One;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size:30px
+}
+.about .container .one span{
+    display: block;
+    font-family: Quicksand;
+    font-size: 20px;
+    text-transform: capitalize;
+    width: 90%;
+    color: teal
+}
+.about .container .one .fa{
+    margin: 6px;
+    margin-top: 30px;
+    color: slategray;
+    width: 150px;
+}
+.about .container hr{
+    border-color: lightgray
+}
+.about .container .one .fa p{
+    font-family: Quicksand;
+    font-size: 20px;
+    text-transform: capitalize;
+    color:  cadetblue;
+    margin-top: 15px;
+    padding-bottom: 70px
+}
+.about .container .one .follow .fa{
+    width: 20px;
+    font-size:20px;
+    margin-top: -1px
+}
+
+.about .container .two h1{
+    font-family: Julius Sans One;
+    color: teal;
+    font-size:60px;
+    padding-top: 60px
+}
+.about .container .two h3{
+    font-weight: bold;
+    font-size: 40px;
+    color: teal;
+    text-transform: capitalize;
+    width: 500px
+}
+.about .container .two hr{
+    width: 40%;
+    margin-left: 5px
+}
+.about .container .two p{
+    font-family: Quicksand;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: darkcyan;
+    width: 50%;
+    line-height:30px
+}
+.about .container .two .fa{
+    font-size: 25px;
+    color: #00aeda;
+    padding-top: 15px
+}
+.about .container .two .ok {
+    position: relative
+}
+.about .container .two .ok .fa{
+   margin-top:-60px;
+    z-index: 5;
+    margin-left: 40px
+}
+ .two .ok:after{
+    width: 100%;
+    height: 5px;
+    background-color: gray;
+    position: absolute
+}
+.workStyle{
+    color: coral;
+}
+/* end about me */
+
+
+
+
+
+
+
+
+
+
